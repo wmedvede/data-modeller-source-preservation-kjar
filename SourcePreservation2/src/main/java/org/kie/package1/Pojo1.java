@@ -11,7 +11,26 @@ public class Pojo1  implements java.io.Serializable {
     public Pojo1() {
     }
 
+    public class Inner1 {
 
+        //buy now we are skipping inner clases
+        private int a;
 
+        public int getA() {
+            return a;
+        }
+
+        public void setA(int a) {
+            this.a = a;
+        }
+    };
+
+    private int method1() { return -1; }
+
+    private void method2() {}
+
+    public static java.lang.String method3() { return null; }
+
+    public static final Integer method4() { return null; }
 
 }
