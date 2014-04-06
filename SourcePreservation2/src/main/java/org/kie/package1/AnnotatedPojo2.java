@@ -12,11 +12,11 @@ import org.kie.annotations.TestAnnotation2;
 
  @TestAnnotation1(value = "value")
 
-                  @org.kie.api.definition.type.Description(value = " AnnotatedPojo1 description")   @TestAnnotation2(method1 = "param1", method2 = "param2")
+                  @org.kie.api.definition.type.Description(value = " AnnotatedPojo2 description")   @TestAnnotation2(method1 = "param1", method2 = "param2")
 
 
 
-    @org.kie.api.definition.type.Label(value = "AnnotatedPojo1Label")
+    @org.kie.api.definition.type.Label(value = "AnnotatedPojo2Label")
 
                 public class AnnotatedPojo2 implements java.io.Serializable {
 
